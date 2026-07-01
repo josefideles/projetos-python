@@ -1,0 +1,10 @@
+'''Para rodar a aplicacao, precisara ativar a api no google cloud console, criar as credenciais de sevico para essa aplicação, gerar a chave json, compartilhar as planilhas com o email do servico gerado para assim poder criar as credenciais e acessar utilizando a api do google.
+E para funcionar, voce ira renomear a sua chave json para "automacao-frequencia.json", colocar na mesma pasta desses arquivos e ter acesso as planilhas. Porem eu preciso autorizar, ja que esta utilizando a planilha com as respostas do formulario que eu criei'''
+google-api-python-client==2.154.0
+google-auth-httplib2==0.2.0
+google-auth-oauthlib==1.2.1
+gspread==6.1.4
+oauth2client==4.1.3
+datetime==5.5
+pandas==2.2.3
+fpdf2==2.8.1
